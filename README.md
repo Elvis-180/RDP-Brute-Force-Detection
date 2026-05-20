@@ -1,8 +1,27 @@
 # RDP Brute Force Attack Detection with Splunk and MITRE ATT&CK
-
-## Overview
-
 This project demonstrates the detection and investigation of a Remote Desktop Protocol (RDP) brute force attack within a SOC-style monitoring environment.
+
+---
+
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Objectives](#objectives)
+3. [Architecture](#architecture)
+4. [Project Details](#project-details)
+5. [Lab Environment](#lab-environment)
+6. [Attack Simulation](#attack-simulation)
+7. [Detection Methodology](#detection-methodology)
+8. [Splunk Detection Query](#splunk-detection-query)
+9. [Investigation Findings](#investigation-findings)
+10. [Security Impact Assessment](#security-impact-assessment)
+11. [Containment and Remediation](#containment-and-remediation)
+12. [Skills Demonstrated](#skills-demonstrated)
+13. [Screenshots](#screenshots)
+14. [Lessons Learned](#lessons-learned)
+
+---
+
+## Project Overview
 
 The lab simulates an attacker attempting repeated authentication attempts against a Windows Server system over RDP while security logs are centrally collected and analyzed using Splunk SIEM.
 
